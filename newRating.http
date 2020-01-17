@@ -1,0 +1,11 @@
+POST http://localhost:8000/api/rating/ HTTP/1.1
+content-type: application/json
+
+{
+    "name":"Gertrude",
+    "boy":false,
+    "username":"Sven",
+    "email":"sven@mail.de",
+    "comment":"hallo 2",
+    "score":"3"
+}
